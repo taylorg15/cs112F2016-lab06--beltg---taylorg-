@@ -20,3 +20,4 @@ Caused by: java.lang.ClassNotFoundException: com.beust.jcommander.JCommander
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
 	... 4 more
 
+At this point i was at a bit of a loss so i decided to slack you 
