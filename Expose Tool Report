@@ -1,1 +1,22 @@
 ExpOse Tool Challenges Report:
+Getting the expose tool to work was a heck of a struggle initially trying to run the command java edu.allegheny.expose.examples.sort.SortingExperiment bubble --verbose 
+in the expose terminal resulted in the error:
+
+Error: Could not find or load main class edu.allegheny.expose.examples.sort.SortingExperiment
+
+So i instead attempted to run the command in the bin terminal which gave me this error:
+
+Error:: command not found
+beltg@aldenv107:~/cs112F2016/cs112F2016-Gabriella Belt/labs/lab6/cs112f2016-lab06/ExpOse/bin$ java edu.allegheny.expose.examples.sort.SortingExperiment bubble --verbose
+Exception in thread "main" java.lang.NoClassDefFoundError: com/beust/jcommander/JCommander
+	at edu.allegheny.expose.DoublingExperiment.<init>(DoublingExperiment.java:51)
+	at edu.allegheny.expose.DoublingExperiment.<init>(DoublingExperiment.java:95)
+	at edu.allegheny.expose.examples.sort.SortingExperiment.<init>(SortingExperiment.java:58)
+	at edu.allegheny.expose.examples.sort.SortingExperiment.main(SortingExperiment.java:25)
+Caused by: java.lang.ClassNotFoundException: com.beust.jcommander.JCommander
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 4 more
+
