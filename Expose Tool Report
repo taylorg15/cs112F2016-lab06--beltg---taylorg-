@@ -20,4 +20,26 @@ Caused by: java.lang.ClassNotFoundException: com.beust.jcommander.JCommander
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
 	... 4 more
 
-At this point i was at a bit of a loss so i decided to slack you 
+At this point i was at a bit of a loss so i decided to slack you, you suggested i return to the website
+and redo every step doing that produced this exception and error:
+
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 0
+	at edu.allegheny.expose.examples.sort.SortingExperimentRepeated.main(SortingExperimentRepeated.java:19)
+
+
+Error: Could not find or load main class edu.allegheny.expose.examples.sort.SortingExperimentRepeated
+
+So i decided to ask my classmates what they did and they suggested i reclone ExpOse and use that one to run my 
+experiments rather that the file i had pushed to bitbucket; doing that produced this error yet again:
+
+Error: Could not find or load main class edu.allegheny.expose.examples.sort.SortingExperimentRepeated
+
+By this point i had become very frustrated so i focused on writing up a full report on what each sorting 
+program did and what the expected worst-case was based on other scholar's work which i cited in my report.
+Once i finished with that i decided to look for a TA, there was no TA to be found though so then i paniced 
+for a half hour and went for a walk. Once returning i looked over the book to see if i missed something, that 
+was not helpful...
+However it finally worked on my partner's computer rather than mine, TEAMWORK YAY!
+
+
+
