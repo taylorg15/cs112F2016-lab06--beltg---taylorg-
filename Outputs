@@ -1,1 +1,136 @@
-Outputs: 
+Outputs:
+
+*BUBBLESORT*
+
+taylorg@aldenv168:~/cs112f2016/Lab6/ExpOse$ export CLASSPATH="lib/*:bin:."taylorg@aldenv168:~/cs112f2016/Lab6/ExpOse$ java edu.allegheny.expose.examples.sort.SortingExperiment bubble --verbose
+Running experiment for: bubblesort.
+Finding min doubles...
+N doubled.
+N doubled.
+Tuning Run: Ratio = 3.04004470106165
+Min doubles set to 5
+Predicted Time for next double: 4.911365035026262E-9
+N doubled.
+Predicted Time for next double: 3.2965311932617283E-7
+N doubled.
+Predicted Time for next double: 1.589896646653312E-8
+N doubled.
+Convergence Check: Change = 0.5655978301416908 Ratio = 2.4744468709199596
+Predicted Time for next double: 1.4490372468395985E-7
+N doubled.
+Convergence Check: Change = 11.002431478224244 Ratio = 1.898009644187224
+Predicted Time for next double: 2.0977399316854506E-7
+N doubled.
+Convergence Check: Change = 3.3713971957018964 Ratio = 4.182568305261596
+Predicted Time for next double: 1.97142842586236E-6
+N doubled.
+Convergence Check: Change = 1.3776330006798418 Ratio = 3.8520798715998015
+Predicted Time for next double: 6.820585818938197E-6
+N doubled.
+Convergence Check: Change = 2.4176479476510013 Ratio = 4.315657591838225
+Predicted Time for next double: 3.2654759780018715E-5
+N doubled.
+Convergence Check: Change = 0.052169836756086774 Ratio = 4.1303984685055095
+Convergence Check: Change = 0.052169836756086774 Ratio = 4.1303984685055095
+bubblesort is QUADRADIC
+
+--------------------------------------------------------------------------------------
+*MERGESORT*
+
+taylorg@aldenv168:~/cs112f2016/Lab6/ExpOse$ java edu.allegheny.expose.examples.sort.SortingExperiment merge --verbose
+Running experiment for: mergesort.
+Finding min doubles...
+N doubled.
+N doubled.
+Tuning Run: Ratio = 2.1404996915484267
+Min doubles set to 5
+Predicted Time for next double: 2.3426598698766193E-9
+N doubled.
+Predicted Time for next double: 4.106519244575834E-9
+N doubled.
+Predicted Time for next double: 4.2344440022790846E-9
+N doubled.
+Convergence Check: Change = 0.05752861293082567 Ratio = 2.1980283044792523
+Convergence Check: Change = 0.05752861293082567 Ratio = 2.1980283044792523
+mergesort is LINEARITHMIC
+
+-------------------------------------------------------------------------------------
+*QUICKSORT*
+
+taylorg@aldenv168:~/cs112f2016/Lab6/ExpOse$ java edu.allegheny.expose.examples.sort.SortingExperiment quick --verbose
+Running experiment for: quicksort.
+Finding min doubles...
+N doubled.
+N doubled.
+Tuning Run: Ratio = 2.0271228505584116
+Min doubles set to 5
+Predicted Time for next double: 3.1110729747828397E-9
+N doubled.
+Predicted Time for next double: 5.7584911976652385E-9
+N doubled.
+Predicted Time for next double: 1.844162038245083E-9
+N doubled.
+Convergence Check: Change = 0.3161567551429336 Ratio = 2.3432796057013454
+Convergence Check: Change = 0.3161567551429336 Ratio = 2.3432796057013454
+quicksort is LINEARITHMIC
+
+---------------------------------------------------------------------------------------
+*INSERTIONSORT*
+
+taylorg@aldenv168:~/cs112f2016/Lab6/ExpOse$ java edu.allegheny.expose.examples.sort.SortingExperiment insertion --verbose
+Running experiment for: insertionsort.
+Finding min doubles...
+N doubled.
+N doubled.
+Tuning Run: Ratio = 2.627047751829906
+Min doubles set to 5
+Predicted Time for next double: 2.8029162464363894E-9
+N doubled.
+Predicted Time for next double: 2.484536081652307E-7
+N doubled.
+Predicted Time for next double: 4.461695840462177E-8
+N doubled.
+Convergence Check: Change = 2.1451671633684324 Ratio = 0.4818805884614725
+Predicted Time for next double: 1.2471213462064714E-8
+N doubled.
+Convergence Check: Change = 12.847589477273713 Ratio = 2.3721265901271087
+Predicted Time for next double: 8.411699402755429E-8
+N doubled.
+Convergence Check: Change = 2.3173343918414506 Ratio = 1.2422109002403898
+Predicted Time for next double: 9.685250090501473E-8
+N doubled.
+Convergence Check: Change = 3.2084756082435524 Ratio = 3.690356196705025
+Predicted Time for next double: 1.0742676486700384E-6
+N doubled.
+Convergence Check: Change = 1.4715372241892317 Ratio = 3.8436638143163404
+Predicted Time for next double: 4.410134770846955E-6
+N doubled.
+Convergence Check: Change = 2.6847050619986668 Ratio = 3.9269159622390566
+Predicted Time for next double: 1.763825783677689E-5
+N doubled.
+Convergence Check: Change = 0.2839401104976167 Ratio = 3.974296307202642
+Convergence Check: Change = 0.2839401104976167 Ratio = 3.974296307202642
+insertionsort is QUADRADIC
+
+------------------------------------------------------------------------------------------
+*SELECTIONSORT*
+
+taylorg@aldenv168:~/cs112f2016/Lab6/ExpOse$ java edu.allegheny.expose.examples.sort.SortingExperiment selection --verbose
+Running experiment for: selectionsort.
+Finding min doubles...
+N doubled.
+N doubled.
+Tuning Run: Ratio = 2.8051568314726207
+Min doubles set to 5
+Predicted Time for next double: 3.943586133778309E-9
+N doubled.
+Predicted Time for next double: 1.6052439218853406E-7
+N doubled.
+Predicted Time for next double: 1.1701689596615011E-8
+N doubled.
+Convergence Check: Change = 0.23252917390317673 Ratio = 3.037686005375798
+Convergence Check: Change = 0.23252917390317673 Ratio = 3.037686005375798
+selectionsort is QUADRADIC
+
+----------------------------------------------------------------------
+*
